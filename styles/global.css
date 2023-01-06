@@ -1,5 +1,4 @@
 :root {
-    --background: rgb(224, 234, 247);
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
@@ -7,7 +6,7 @@
 
 body {
     font-family: var(--primary-font);
-    background: var(--background);
+    background: black;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -26,9 +25,9 @@ header {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-* {
+/* * {
     border: solid 2px;
-}
+} */
 
 header .logo {
     height: 100%;
@@ -36,12 +35,77 @@ header .logo {
 
 main {
     padding: 20px;
-
     display: grid;
-    grid-template-rows: 5% 40% 5% 20% 20% 10%;
+    grid-template-rows: 5% 25% 5% 45% 45% 5%;
+    background-color: black;
 }
 
 .nav {
     display: grid;
     grid-template-columns: 72% 7% 7% 7% 7%;
+    color: white;
+    font-size: 0.8rem;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 5rem;
+    font-family: 'Futura';
+    font-weight: lighter;
+    color: white;
+}
+
+.searchBar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    padding-top: 18px;
+    color: red;
+}
+
+input {
+    border-radius: 20px;
+    width: 26rem;
+    height: 2.2rem;
+    border: 0;
+}
+
+.listOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-top: 100px;
+}
+
+.listTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.user {
+    background-color: white;
+    border-radius: 20px;
+    width: 34px;
+    color: black;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    border-radius: 18px;
+    border: 0;
+    background-color: rgb(44, 44, 44);
 }
