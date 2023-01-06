@@ -26,7 +26,7 @@ header {
 }
 
 /* * {
-    border: solid 2px;
+    border: solid white 2px;
 } */
 
 header .logo {
@@ -42,10 +42,19 @@ main {
 
 .nav {
     display: grid;
-    grid-template-columns: 72% 7% 7% 7% 7%;
+    grid-template-columns: 72% 7% 7% 7% 4.5% 4.5%;
     color: white;
     font-size: 0.8rem;
     font-family: Arial, sans-serif;
+}
+
+.iconDots {
+    line-height: 12px;
+    padding-top: 5px;
+}
+
+.textLinks {
+    padding-top: 17px;
 }
 
 .title {
@@ -79,7 +88,7 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     color: white;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .listTwo {
@@ -92,8 +101,12 @@ input {
     background-color: white;
     border-radius: 20px;
     width: 34px;
+    height: 34px;
     color: black;
-    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
 }
 
 .button {
