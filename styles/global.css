@@ -50,7 +50,20 @@ main {
 
 .icon-dots {
     line-height: 12px;
-    padding-top: 5px;
+    margin-right: 30px;
+    border-radius: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 10px;
+    line-height: 8px;
+    height: 46px;
+    width: 46px;
+    margin-top: 16px;
+}
+
+.icon-dots:hover {
+    background-color: rgb(29, 29, 29);
 }
 
 .text-links {
@@ -98,8 +111,8 @@ input {
 .user {
     background-color: white;
     border-radius: 20px;
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     color: black;
     display: grid;
     justify-content: center;
@@ -146,4 +159,12 @@ input {
 
 .netflix-icon {
     height: 60px;
+}
+
+#gmail-link:hover {
+    text-decoration: underline;
+}
+
+#image-link:hover {
+    text-decoration: underline;
 }
