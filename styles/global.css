@@ -48,12 +48,12 @@ main {
     font-family: Arial, sans-serif;
 }
 
-.iconDots {
+.icon-dots {
     line-height: 12px;
     padding-top: 5px;
 }
 
-.textLinks {
+.text-links {
     padding-top: 17px;
 }
 
@@ -68,7 +68,7 @@ main {
     color: white;
 }
 
-.searchBar {
+.search-bar {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -84,14 +84,12 @@ input {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.listOne {
+.list-one {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 3fr;
     color: white;
-    margin-top: ;
 }
-
-.listTwo {
+.list-two {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 3fr;
     color: white;
@@ -109,13 +107,13 @@ input {
     font-size: large;
 }
 
-.customizeButton {
+.customize-button {
     display: flex;
     justify-content: right;
     padding: 40px;
 }
 
-.actualButton {
+.actual-button {
     width: 170px;
     height: 30px;
     border-radius: 18px;
@@ -123,7 +121,7 @@ input {
     background-color: rgb(44, 44, 44);
 }
 
-.voiceButton {
+.voice-button {
     width: 30px;
     height: 30px;
     display: flex;
@@ -142,6 +140,6 @@ input {
     font-size: 12px;
 }
 
-.netflixIcon {
+.netflix-icon {
     height: 60px;
 }
