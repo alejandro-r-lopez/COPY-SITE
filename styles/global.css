@@ -75,10 +75,11 @@ main {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    font-size: 5rem;
+    font-size: 5.2rem;
     font-family: 'Futura';
     font-weight: lighter;
     color: white;
+    margin-top: 60px;
 }
 
 .search-bar {
