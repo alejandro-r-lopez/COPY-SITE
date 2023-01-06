@@ -1,39 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>New Tab</title>
+        <link rel="icon" type="image/x-icon" href="assets/googleicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Patrick+Hand&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+    
 
-</head>
+        <main class="site">
+            <section class="nav">
+                <p></p>
+                <a href="https://gmail.com/" target="_blank">
+                    <p class="text-links" id="gmail-link">Gmail</p>
+                </a>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+                    <p class="text-links" id="image-link">Images</p>
+                    
+                    <p class="icon-dots">&#9679 &#9679 &#9679
+                    <br>
+                    &#9679 &#9679 &#9679
+                    <br>
+                    &#9679 &#9679 &#9679
 
-    <main>
+                </p>
+                <p class="user">A</p>
+                <p></p>
+            </section>
 
-    </main>
+            <section>
+                <h1 class="title">Google</h1>
+            </section>
 
-</body>
+            <section class="search-bar">
+                <input type='text' 
+                placeholder= 'Search Google or type a URL'/>
+                <!-- code for magnifying glass - &#x1F50D -->
+            </section>
 
+            <section class='list-one'>
+                
+                <p></p>
+
+                <a href="https://canvas.instructure.com/" target="_blank">
+                    <p class="app"> 
+                    <img src="assets/canvaslogo.png" class="icon"> 
+                    <br> 
+                    Dashboard</p>
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <p class="app">
+                    <img src="assets/GitHubIcon.png" class="icon">
+                    <br> 
+                    GitHub</p> 
+                </a>
+
+                <a href="https://github.com/alchemycodelab/student-resources/" target="_blank">
+                    <p class="app"> 
+                    <img src="assets/studentresourcesIcon.png" class="resource-icon"> 
+                    <br> 
+                    Resources</p>
+                </a>
+
+                <a href="https://gmail.com/" target="_blank">
+                    <p class="app"> <img src="assets/gmailIcon.png" class="email-icon"> 
+                    <br> 
+                    Gmail</p>
+                </a>
+              
+                <a href="https://youtube.com/" target="_blank">
+                <p class="app"> <img src="assets/youtubeIcon.png" class="icon"> 
+                    <br>YouTube</p>
+                </a>
+
+                <p></p>
+            
+            </section>
+
+            <section class='list-two'>
+                <p></p>
+                <p class="app"> <img src="assets/addlink.png" class="link-icon"> 
+                    <br>
+                    Add Link</p>
+                <p class="app"> <img src="assets/addlink.png" class="link-icon">
+                    <br>
+                    Add Link</p>
+                <p class="app"> <img src="assets/addlink.png" class="link-icon">
+                    <br>
+                    Add Link</p>
+                <p class="app"> <img src="assets/addlink.png" class="link-icon"> 
+                    <br>
+                    Add Link</p>
+                <p class="app"> <img src="assets/addlink.png" class="link-icon"> 
+                    <br>
+                    Add link</p>
+                <p></p>
+
+
+            </section>
+
+            <section class="customize-button">
+                <button class="actual-button">Customize Chrome</button>
+            </section>
+        </main>
+    </body>
 </html>
